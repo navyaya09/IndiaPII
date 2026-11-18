@@ -4,24 +4,24 @@
 
 IndiaPII combines multilingual Named Entity Recognition (NER), rule-based detection, reversible masking and locally hosted Generative AI with Retrieval-Augmented Generation (RAG).
 
-The system is designed to process English, Hindi and Hinglish text while preserving useful document information such as financial amounts and dates.
+The system supports English, Hindi and Hinglish while preserving useful document information such as financial amounts and dates.
 
 ## Key Features
 
 - **Multilingual PII Detection:** Fine-tuned MuRIL model for identifying sensitive entities in English, Hindi and Hinglish.
 - **Baseline Comparison:** Regex and Microsoft Presidio-based detection for performance comparison.
-- **Indian PII Handling:** Detection and correction logic for Aadhaar, PAN, Indian phone numbers, email addresses, UPI IDs, names and addresses.
+- **Indian PII Handling:** Detection and validation logic for Aadhaar, PAN, Indian phone numbers, email addresses, UPI IDs, names and addresses.
 - **Reversible Masking:** Replaces sensitive information with typed placeholders and maintains a mapping for restoration.
-- **Local GenAI:** Uses Ollama and Llama 3.2 for privacy-aware text summarisation, question answering and rewriting.
+- **Local GenAI:** Uses Ollama and Llama 3.2 for summarisation, question answering and rewriting.
 - **Document Intelligence:** Uses local embeddings and vector similarity retrieval to answer questions about protected documents.
-- **Interactive Interface:** Streamlit application with separate workspaces for detection, masking, restoration, GenAI and document intelligence.
+- **Interactive Interface:** Streamlit application with five workspaces.
 - **REST API:** FastAPI backend exposing detection, masking, restoration and AI endpoints.
 
 ## Technology Stack
 
 | Component | Technology |
 |---|---|
-| Programming language | Python |
+| Programming language | Python 3.11 |
 | Multilingual NER | Google MuRIL |
 | Baselines | Regex, Microsoft Presidio |
 | Deep learning | PyTorch, Hugging Face Transformers |
@@ -30,8 +30,14 @@ The system is designed to process English, Hindi and Hinglish text while preserv
 | Local LLM | Ollama, Llama 3.2 |
 | Embeddings | Nomic Embed Text |
 | Retrieval | Cosine similarity |
-| Data processing | NumPy, Pandas |
 | Evaluation | Precision, Recall, F1-score |
+
+## Repositories and Model
+
+- **GitHub source code:** https://github.com/navyaa09/IndiaPII
+- **Fine-tuned MuRIL model:** https://huggingface.co/navya0909/indiapii-muril
+
+The fine-tuned MuRIL model is hosted separately on Hugging Face because of its size. Model weights are not included in the GitHub repository.
 
 ## System Architecture
 
@@ -83,11 +89,11 @@ The detector also applies validation and contextual corrections to reduce incorr
 ## RAG Workflow
 
 1. The user uploads or enters a document.
-2. The original document is passed through the PII detection and masking pipeline.
-3. Only the masked document is sent to the RAG indexing component.
-4. The document is divided into overlapping text chunks.
+2. The document passes through PII detection and masking.
+3. Only masked document content is sent to the RAG indexing component.
+4. The document is divided into text chunks.
 5. Nomic Embed Text generates local embeddings.
-6. Question embeddings are compared with document embeddings using cosine similarity.
+6. Question embeddings are compared with document embeddings.
 7. Relevant chunks are retrieved.
 8. Llama 3.2 generates an answer using the retrieved protected context.
 
@@ -126,76 +132,125 @@ IndiaPII/
 │   └── comparison/
 ├── test_masking.py
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
-Model weights and sensitive datasets should not be committed to GitHub.
+**Note:** Model weights and sensitive datasets are not committed to GitHub.
 
 ## Installation and Setup
+
+### Prerequisites
+
+- Python 3.11
+- Git
+- Ollama
+- Sufficient disk space and RAM for the MuRIL model and local LLM.
 
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/navyaa09/IndiaPII.git
 cd IndiaPII
 ```
 
 ### 2. Create a virtual environment
+
+**macOS / Linux:**
 
 ```bash
 python3.11 -m venv .venv
 source .venv/bin/activate
 ```
 
+**Windows PowerShell:**
+
+```powershell
+py -3.11 -m venv .venv
+.venv\Scripts\Activate.ps1
+```
+
 ### 3. Install dependencies
 
 ```bash
-pip install --upgrade pip
+python -m pip install --upgrade pip
 pip install -r requirements.txt
+pip install -U huggingface_hub
 ```
 
-### 4. Set up the local models
+### 4. Download the fine-tuned MuRIL model
 
-Place the fine-tuned MuRIL model in:
+The fine-tuned model is publicly hosted on Hugging Face.
+
+Download it directly into the expected local model directory:
+
+```bash
+hf download navya0909/indiapii-muril --local-dir models/muril-pii
+```
+
+After downloading, verify that the directory contains:
 
 ```text
 models/muril-pii/
+├── config.json
+├── model.safetensors
+├── tokenizer.json
+├── tokenizer_config.json
+└── training_args.bin
 ```
 
-Install and start Ollama. Pull the required models:
+No Hugging Face access token is required while the model repository remains public.
+
+### 5. Install and configure Ollama
+
+Download Ollama from:
+
+https://ollama.com/download
+
+Install and start Ollama.
+
+Pull the required local models:
 
 ```bash
 ollama pull llama3.2:3b
 ollama pull nomic-embed-text:latest
 ```
 
-### 5. Start the FastAPI backend
+Ensure the Ollama service is running before testing the GenAI and RAG workspaces.
+
+### 6. Start the FastAPI backend
+
+From the project root:
 
 ```bash
 uvicorn src.api:app --reload
 ```
 
-API documentation:
+The backend runs at:
 
 ```text
-http://127.0.0.1:8000/docs
+http://127.0.0.1:8000
 ```
 
-### 6. Start the Streamlit application
+API documentation:
 
-Open a separate terminal:
+http://127.0.0.1:8000/docs
+
+### 7. Start the Streamlit application
+
+Open a separate terminal, navigate to the project directory and activate the virtual environment.
+
+Run:
 
 ```bash
-cd ~/IndiaPII
-source .venv/bin/activate
 streamlit run app/streamlit_app.py --server.port 8501
 ```
 
 Open:
 
-```text
 http://localhost:8501
-```
+
+**Important:** Keep both the FastAPI backend and Ollama running while using the complete application.
 
 ## API Endpoints
 
