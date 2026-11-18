@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints
+models/*
+!models/README.md
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Data
+data/raw/*
+data/processed/*
+!data/README.md
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# System
+.DS_Store
+
+# Logs
+*.log
+
+# Results
+*.tmp
