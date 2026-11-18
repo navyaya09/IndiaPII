@@ -1,0 +1,4038 @@
+[
+  {
+    "sample_id": 0,
+    "language": "hinglish",
+    "text": "Amit Patel ki UPI ID priya@ybl hai.",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 30,
+        "label": "UPI",
+        "text": "priya@ybl",
+        "score": 0.95
+      },
+      {
+        "start": 0,
+        "end": 13,
+        "label": "PERSON",
+        "text": "Amit Patel ki",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 10,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 1,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0002 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0002",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 2,
+    "language": "en",
+    "text": "My registered phone is 9000000005 and PAN is VWXYZ1234B.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "VWXYZ1234B",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000005",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000005",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 3,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0005 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0005",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 4,
+    "language": "hinglish",
+    "text": "पूजा सिंह ki UPI ID riya@ibl hai.",
+    "predictions": [
+      {
+        "start": 20,
+        "end": 28,
+        "label": "UPI",
+        "text": "riya@ibl",
+        "score": 0.95
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 9,
+        "label": "PERSON"
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 5,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता Indiranagar, Bengaluru है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 39,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 6,
+    "language": "hinglish",
+    "text": "Payment neha@okhdfcbank par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 23,
+        "label": "UPI",
+        "text": "neha@okhdfcbank",
+        "score": 0.95
+      },
+      {
+        "start": 28,
+        "end": 36,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 23,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 7,
+    "language": "hinglish",
+    "text": "Payment aman@paytm par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 18,
+        "label": "UPI",
+        "text": "aman@paytm",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 31,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 18,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 8,
+    "language": "hinglish",
+    "text": "Payment riya@ibl par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 16,
+        "label": "UPI",
+        "text": "riya@ibl",
+        "score": 0.95
+      },
+      {
+        "start": 21,
+        "end": 29,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 16,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 9,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता सेक्टर 15, नोएडा है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 33,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 10,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0003 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0003",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 11,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0002 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0002",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 12,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता इंदिरानगर, बेंगलुरु है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 36,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 13,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0005 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0005",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 14,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0001 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0001",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 15,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0006 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0006",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 16,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0006 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0006",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 17,
+    "language": "hinglish",
+    "text": "Payment ananya@oksbi par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "UPI",
+        "text": "ananya@oksbi",
+        "score": 0.95
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 18,
+    "language": "en",
+    "text": "You can contact Amit Patel at 9000000005 or neha.demo@example.com.",
+    "predictions": [
+      {
+        "start": 44,
+        "end": 65,
+        "label": "EMAIL",
+        "text": "neha.demo@example.com",
+        "score": 1.0
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "9000000005",
+        "score": 0.9
+      },
+      {
+        "start": 16,
+        "end": 26,
+        "label": "PERSON",
+        "text": "Amit Patel",
+        "score": 0.85
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "9000000005",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 26,
+        "label": "PERSON"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE"
+      },
+      {
+        "start": 44,
+        "end": 65,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 19,
+    "language": "en",
+    "text": "My registered phone is 9000000004 and PAN is PQRSX5678K.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "PQRSX5678K",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000004",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000004",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 20,
+    "language": "hinglish",
+    "text": "Aman Verma ki UPI ID riya@ibl hai.",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 29,
+        "label": "UPI",
+        "text": "riya@ibl",
+        "score": 0.95
+      },
+      {
+        "start": 0,
+        "end": 13,
+        "label": "PERSON",
+        "text": "Aman Verma ki",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 10,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 29,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 21,
+    "language": "hinglish",
+    "text": "नेहा गुप्ता ki UPI ID priya@ybl hai.",
+    "predictions": [
+      {
+        "start": 22,
+        "end": 31,
+        "label": "UPI",
+        "text": "priya@ybl",
+        "score": 0.95
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 22,
+        "end": 31,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 22,
+    "language": "en",
+    "text": "My registered phone is 9000000005 and PAN is QRSTU5678A.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "QRSTU5678A",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000005",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000005",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 23,
+    "language": "en",
+    "text": "My registered phone is 9000000008 and PAN is PQRSX5678K.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "PQRSX5678K",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000008",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000008",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 24,
+    "language": "hinglish",
+    "text": "Neha Gupta ki UPI ID priya@ybl hai.",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 30,
+        "label": "UPI",
+        "text": "priya@ybl",
+        "score": 0.95
+      },
+      {
+        "start": 0,
+        "end": 10,
+        "label": "PERSON",
+        "text": "Neha Gupta",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 10,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 25,
+    "language": "hinglish",
+    "text": "नेहा गुप्ता ki UPI ID riya@ibl hai.",
+    "predictions": [
+      {
+        "start": 22,
+        "end": 30,
+        "label": "UPI",
+        "text": "riya@ibl",
+        "score": 0.95
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 26,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0003 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0003",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 27,
+    "language": "hinglish",
+    "text": "Payment riya@ibl par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 16,
+        "label": "UPI",
+        "text": "riya@ibl",
+        "score": 0.95
+      },
+      {
+        "start": 21,
+        "end": 29,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 16,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 28,
+    "language": "hinglish",
+    "text": "Payment priya@ybl par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 17,
+        "label": "UPI",
+        "text": "priya@ybl",
+        "score": 0.95
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 17,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 29,
+    "language": "hinglish",
+    "text": "Payment ananya@oksbi par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "UPI",
+        "text": "ananya@oksbi",
+        "score": 0.95
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 30,
+    "language": "hinglish",
+    "text": "Payment rahul@okaxis par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "UPI",
+        "text": "rahul@okaxis",
+        "score": 0.95
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 31,
+    "language": "en",
+    "text": "You can contact नेहा गुप्ता at 9000000004 or neha.demo@example.com.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 66,
+        "label": "EMAIL",
+        "text": "neha.demo@example.com",
+        "score": 1.0
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "label": "PHONE",
+        "text": "9000000004",
+        "score": 0.9
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "label": "PHONE",
+        "text": "9000000004",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 66,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 32,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता एमजी रोड, भोपाल है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 32,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 33,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता HSR Layout, Bengaluru है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 38,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 34,
+    "language": "en",
+    "text": "My registered phone is 9000000004 and PAN is FGHIJ4567L.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "FGHIJ4567L",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000004",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000004",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 35,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता 24 MG Road, Bengaluru है।",
+    "predictions": [
+      {
+        "start": 13,
+        "end": 16,
+        "label": "PERSON",
+        "text": "पता",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 38,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 36,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0004 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0004",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 37,
+    "language": "hinglish",
+    "text": "रोहित ki UPI ID neha@okhdfcbank hai.",
+    "predictions": [
+      {
+        "start": 16,
+        "end": 31,
+        "label": "UPI",
+        "text": "neha@okhdfcbank",
+        "score": 0.95
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 5,
+        "label": "PERSON"
+      },
+      {
+        "start": 16,
+        "end": 31,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 38,
+    "language": "en",
+    "text": "My registered phone is 9000000010 and PAN is QRSTU5678A.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "QRSTU5678A",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000010",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000010",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 39,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता 12 Park Street, Kolkata है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 40,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 40,
+    "language": "en",
+    "text": "My registered phone is 9000000002 and PAN is LMNOP1234Q.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "LMNOP1234Q",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000002",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000002",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 41,
+    "language": "hinglish",
+    "text": "Aman Verma ki UPI ID neha@okhdfcbank hai.",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 36,
+        "label": "UPI",
+        "text": "neha@okhdfcbank",
+        "score": 0.95
+      },
+      {
+        "start": 0,
+        "end": 13,
+        "label": "PERSON",
+        "text": "Aman Verma ki",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 10,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 36,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 42,
+    "language": "en",
+    "text": "My registered phone is 9000000007 and PAN is FGHIJ4567L.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "FGHIJ4567L",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000007",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000007",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 43,
+    "language": "hinglish",
+    "text": "सीमा देवी ki UPI ID priya@ybl hai.",
+    "predictions": [
+      {
+        "start": 20,
+        "end": 29,
+        "label": "UPI",
+        "text": "priya@ybl",
+        "score": 0.95
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 9,
+        "label": "PERSON"
+      },
+      {
+        "start": 20,
+        "end": 29,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 44,
+    "language": "en",
+    "text": "My registered phone is 9000000008 and PAN is QRSTU5678A.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "QRSTU5678A",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000008",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000008",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 45,
+    "language": "hinglish",
+    "text": "Payment neha@okhdfcbank par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 23,
+        "label": "UPI",
+        "text": "neha@okhdfcbank",
+        "score": 0.95
+      },
+      {
+        "start": 28,
+        "end": 36,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 23,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 46,
+    "language": "en",
+    "text": "You can contact Riya Singh at 9000000007 or aman.work@example.net.",
+    "predictions": [
+      {
+        "start": 44,
+        "end": 65,
+        "label": "EMAIL",
+        "text": "aman.work@example.net",
+        "score": 1.0
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "9000000007",
+        "score": 0.9
+      },
+      {
+        "start": 16,
+        "end": 26,
+        "label": "PERSON",
+        "text": "Riya Singh",
+        "score": 0.85
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "9000000007",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 26,
+        "label": "PERSON"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE"
+      },
+      {
+        "start": 44,
+        "end": 65,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 47,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0006 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0006",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 48,
+    "language": "en",
+    "text": "You can contact Amit Patel at 9000000004 or riya.test@example.org.",
+    "predictions": [
+      {
+        "start": 44,
+        "end": 65,
+        "label": "EMAIL",
+        "text": "riya.test@example.org",
+        "score": 1.0
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "9000000004",
+        "score": 0.9
+      },
+      {
+        "start": 16,
+        "end": 26,
+        "label": "PERSON",
+        "text": "Amit Patel",
+        "score": 0.85
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "9000000004",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 26,
+        "label": "PERSON"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE"
+      },
+      {
+        "start": 44,
+        "end": 65,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 49,
+    "language": "en",
+    "text": "You can contact पूजा सिंह at 9000000001 or riya.test@example.org.",
+    "predictions": [
+      {
+        "start": 43,
+        "end": 64,
+        "label": "EMAIL",
+        "text": "riya.test@example.org",
+        "score": 1.0
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "9000000001",
+        "score": 0.9
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "9000000001",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 25,
+        "label": "PERSON"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE"
+      },
+      {
+        "start": 43,
+        "end": 64,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 50,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता HSR Layout, Bengaluru है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 38,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 51,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0004 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0004",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 52,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0005 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0005",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 53,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0003 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0003",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 54,
+    "language": "en",
+    "text": "You can contact Kavya Nair at 9000000009 or aman.work@example.net.",
+    "predictions": [
+      {
+        "start": 44,
+        "end": 65,
+        "label": "EMAIL",
+        "text": "aman.work@example.net",
+        "score": 1.0
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "9000000009",
+        "score": 0.9
+      },
+      {
+        "start": 16,
+        "end": 26,
+        "label": "PERSON",
+        "text": "Kavya Nair",
+        "score": 0.85
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "9000000009",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 26,
+        "label": "PERSON"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE"
+      },
+      {
+        "start": 44,
+        "end": 65,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 55,
+    "language": "hinglish",
+    "text": "Payment priya@ybl par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 17,
+        "label": "UPI",
+        "text": "priya@ybl",
+        "score": 0.95
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 17,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 56,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0001 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0001",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 57,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0004 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0004",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 58,
+    "language": "en",
+    "text": "My registered phone is 9000000002 and PAN is PQRSX5678K.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "PQRSX5678K",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000002",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000002",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 59,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0001 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0001",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 60,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0004 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0004",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 61,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0001 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0001",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 62,
+    "language": "hinglish",
+    "text": "पूजा सिंह ki UPI ID rahul@okaxis hai.",
+    "predictions": [
+      {
+        "start": 20,
+        "end": 32,
+        "label": "UPI",
+        "text": "rahul@okaxis",
+        "score": 0.95
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 9,
+        "label": "PERSON"
+      },
+      {
+        "start": 20,
+        "end": 32,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 63,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता Indiranagar, Bengaluru है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 39,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 64,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0002 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0002",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 65,
+    "language": "hinglish",
+    "text": "Rahul Sharma ki UPI ID rahul@okaxis hai.",
+    "predictions": [
+      {
+        "start": 23,
+        "end": 35,
+        "label": "UPI",
+        "text": "rahul@okaxis",
+        "score": 0.95
+      },
+      {
+        "start": 0,
+        "end": 15,
+        "label": "PERSON",
+        "text": "Rahul Sharma ki",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 12,
+        "label": "PERSON"
+      },
+      {
+        "start": 23,
+        "end": 35,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 66,
+    "language": "hinglish",
+    "text": "प्रिया मेहता ki UPI ID priya@ybl hai.",
+    "predictions": [
+      {
+        "start": 23,
+        "end": 32,
+        "label": "UPI",
+        "text": "priya@ybl",
+        "score": 0.95
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 12,
+        "label": "PERSON"
+      },
+      {
+        "start": 23,
+        "end": 32,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 67,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0002 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0002",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 68,
+    "language": "en",
+    "text": "You can contact रोहित at 9000000008 or aman.work@example.net.",
+    "predictions": [
+      {
+        "start": 39,
+        "end": 60,
+        "label": "EMAIL",
+        "text": "aman.work@example.net",
+        "score": 1.0
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PHONE",
+        "text": "9000000008",
+        "score": 0.9
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PHONE",
+        "text": "9000000008",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 21,
+        "label": "PERSON"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PHONE"
+      },
+      {
+        "start": 39,
+        "end": 60,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 69,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता एमजी रोड, भोपाल है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 32,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 70,
+    "language": "hinglish",
+    "text": "Payment riya@ibl par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 16,
+        "label": "UPI",
+        "text": "riya@ibl",
+        "score": 0.95
+      },
+      {
+        "start": 21,
+        "end": 29,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 16,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 71,
+    "language": "en",
+    "text": "My registered phone is 9000000006 and PAN is LMNOP1234Q.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "LMNOP1234Q",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000006",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000006",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 72,
+    "language": "en",
+    "text": "You can contact सीमा देवी at 9000000008 or priya.test@example.com.",
+    "predictions": [
+      {
+        "start": 43,
+        "end": 65,
+        "label": "EMAIL",
+        "text": "priya.test@example.com",
+        "score": 1.0
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "9000000008",
+        "score": 0.9
+      },
+      {
+        "start": 16,
+        "end": 25,
+        "label": "PERSON",
+        "text": "सीमा देवी",
+        "score": 0.85
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "9000000008",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 25,
+        "label": "PERSON"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE"
+      },
+      {
+        "start": 43,
+        "end": 65,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 73,
+    "language": "hinglish",
+    "text": "Payment priya@ybl par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 17,
+        "label": "UPI",
+        "text": "priya@ybl",
+        "score": 0.95
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 17,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 74,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0003 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0003",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 75,
+    "language": "en",
+    "text": "You can contact Ananya Rao at 9000000007 or aman.work@example.net.",
+    "predictions": [
+      {
+        "start": 44,
+        "end": 65,
+        "label": "EMAIL",
+        "text": "aman.work@example.net",
+        "score": 1.0
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "9000000007",
+        "score": 0.9
+      },
+      {
+        "start": 16,
+        "end": 26,
+        "label": "PERSON",
+        "text": "Ananya Rao",
+        "score": 0.85
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "9000000007",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 26,
+        "label": "PERSON"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE"
+      },
+      {
+        "start": 44,
+        "end": 65,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 76,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता 12 Park Street, Kolkata है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 40,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 77,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0006 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0006",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 78,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0005 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0005",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 79,
+    "language": "hinglish",
+    "text": "Kavya Nair ki UPI ID rahul@okaxis hai.",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 33,
+        "label": "UPI",
+        "text": "rahul@okaxis",
+        "score": 0.95
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 10,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 33,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 80,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0004 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0004",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 81,
+    "language": "en",
+    "text": "You can contact रोहित at 9000000004 or priya.test@example.com.",
+    "predictions": [
+      {
+        "start": 39,
+        "end": 61,
+        "label": "EMAIL",
+        "text": "priya.test@example.com",
+        "score": 1.0
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PHONE",
+        "text": "9000000004",
+        "score": 0.9
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PHONE",
+        "text": "9000000004",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 21,
+        "label": "PERSON"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "PHONE"
+      },
+      {
+        "start": 39,
+        "end": 61,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 82,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0005 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0005",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 83,
+    "language": "hinglish",
+    "text": "Aman Verma ki UPI ID neha@okhdfcbank hai.",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 36,
+        "label": "UPI",
+        "text": "neha@okhdfcbank",
+        "score": 0.95
+      },
+      {
+        "start": 0,
+        "end": 13,
+        "label": "PERSON",
+        "text": "Aman Verma ki",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 10,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 36,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 84,
+    "language": "hinglish",
+    "text": "Payment rahul@okaxis par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "UPI",
+        "text": "rahul@okaxis",
+        "score": 0.95
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 85,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0005 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0005",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 86,
+    "language": "hinglish",
+    "text": "Amit Patel ki UPI ID riya@ibl hai.",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 29,
+        "label": "UPI",
+        "text": "riya@ibl",
+        "score": 0.95
+      },
+      {
+        "start": 0,
+        "end": 13,
+        "label": "PERSON",
+        "text": "Amit Patel ki",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 10,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 29,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 87,
+    "language": "en",
+    "text": "My registered phone is 9000000009 and PAN is LMNOP1234Q.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "LMNOP1234Q",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000009",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000009",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 88,
+    "language": "hinglish",
+    "text": "अमित कुमार ki UPI ID riya@ibl hai.",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 29,
+        "label": "UPI",
+        "text": "riya@ibl",
+        "score": 0.95
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 10,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 29,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 89,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता इंदिरानगर, बेंगलुरु है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 36,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 90,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0001 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0001",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 91,
+    "language": "hinglish",
+    "text": "Payment riya@ibl par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 16,
+        "label": "UPI",
+        "text": "riya@ibl",
+        "score": 0.95
+      },
+      {
+        "start": 21,
+        "end": 29,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 16,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 92,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0004 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0004",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 93,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0004 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0004",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 94,
+    "language": "hinglish",
+    "text": "Payment aman@paytm par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 18,
+        "label": "UPI",
+        "text": "aman@paytm",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 31,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 18,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 95,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता सेक्टर 15, नोएडा है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 33,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 96,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0006 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0006",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 97,
+    "language": "en",
+    "text": "You can contact सीमा देवी at 9000000002 or neha.demo@example.com.",
+    "predictions": [
+      {
+        "start": 43,
+        "end": 64,
+        "label": "EMAIL",
+        "text": "neha.demo@example.com",
+        "score": 1.0
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "9000000002",
+        "score": 0.9
+      },
+      {
+        "start": 16,
+        "end": 25,
+        "label": "PERSON",
+        "text": "सीमा देवी",
+        "score": 0.85
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "9000000002",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 25,
+        "label": "PERSON"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE"
+      },
+      {
+        "start": 43,
+        "end": 64,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 98,
+    "language": "en",
+    "text": "My registered phone is 9000000007 and PAN is FGHIJ4567L.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "FGHIJ4567L",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000007",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000007",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 99,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0002 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0002",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 100,
+    "language": "en",
+    "text": "You can contact Aman Verma at 9000000009 or aman.work@example.net.",
+    "predictions": [
+      {
+        "start": 44,
+        "end": 65,
+        "label": "EMAIL",
+        "text": "aman.work@example.net",
+        "score": 1.0
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "9000000009",
+        "score": 0.9
+      },
+      {
+        "start": 16,
+        "end": 26,
+        "label": "PERSON",
+        "text": "Aman Verma",
+        "score": 0.85
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "9000000009",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 26,
+        "label": "PERSON"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE"
+      },
+      {
+        "start": 44,
+        "end": 65,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 101,
+    "language": "en",
+    "text": "My registered phone is 9000000005 and PAN is ABCDE1234F.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "ABCDE1234F",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000005",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000005",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 102,
+    "language": "en",
+    "text": "You can contact राहुल वर्मा at 9000000005 or ananya@example.org.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 63,
+        "label": "EMAIL",
+        "text": "ananya@example.org",
+        "score": 1.0
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "label": "PHONE",
+        "text": "9000000005",
+        "score": 0.9
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "label": "PHONE",
+        "text": "9000000005",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 63,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 103,
+    "language": "hinglish",
+    "text": "Arjun Kumar ki UPI ID ananya@oksbi hai.",
+    "predictions": [
+      {
+        "start": 22,
+        "end": 34,
+        "label": "UPI",
+        "text": "ananya@oksbi",
+        "score": 0.95
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 22,
+        "end": 34,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 104,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0001 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0001",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 105,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0004 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0004",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 106,
+    "language": "en",
+    "text": "You can contact Amit Patel at 9000000008 or rahul.test@example.com.",
+    "predictions": [
+      {
+        "start": 44,
+        "end": 66,
+        "label": "EMAIL",
+        "text": "rahul.test@example.com",
+        "score": 1.0
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "9000000008",
+        "score": 0.9
+      },
+      {
+        "start": 16,
+        "end": 26,
+        "label": "PERSON",
+        "text": "Amit Patel",
+        "score": 0.85
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "9000000008",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 26,
+        "label": "PERSON"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE"
+      },
+      {
+        "start": 44,
+        "end": 66,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 107,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0006 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0006",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 108,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता 12 Park Street, Kolkata है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 40,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 109,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0003 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0003",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 110,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता व्हाइटफील्ड, बेंगलुरु है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 38,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 111,
+    "language": "en",
+    "text": "My registered phone is 9000000007 and PAN is LMNOP1234Q.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "LMNOP1234Q",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000007",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000007",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 112,
+    "language": "en",
+    "text": "My registered phone is 9000000001 and PAN is PQRSX5678K.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "PQRSX5678K",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000001",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000001",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 113,
+    "language": "en",
+    "text": "You can contact Rahul Sharma at 9000000002 or aman.work@example.net.",
+    "predictions": [
+      {
+        "start": 46,
+        "end": 67,
+        "label": "EMAIL",
+        "text": "aman.work@example.net",
+        "score": 1.0
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "label": "PHONE",
+        "text": "9000000002",
+        "score": 0.9
+      },
+      {
+        "start": 16,
+        "end": 28,
+        "label": "PERSON",
+        "text": "Rahul Sharma",
+        "score": 0.85
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "label": "PHONE",
+        "text": "9000000002",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 28,
+        "label": "PERSON"
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "label": "PHONE"
+      },
+      {
+        "start": 46,
+        "end": 67,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 114,
+    "language": "hinglish",
+    "text": "Arjun Kumar ki UPI ID ananya@oksbi hai.",
+    "predictions": [
+      {
+        "start": 22,
+        "end": 34,
+        "label": "UPI",
+        "text": "ananya@oksbi",
+        "score": 0.95
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 11,
+        "label": "PERSON"
+      },
+      {
+        "start": 22,
+        "end": 34,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 115,
+    "language": "en",
+    "text": "You can contact अमित कुमार at 9000000010 or ananya@example.org.",
+    "predictions": [
+      {
+        "start": 44,
+        "end": 62,
+        "label": "EMAIL",
+        "text": "ananya@example.org",
+        "score": 1.0
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "9000000010",
+        "score": 0.9
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE",
+        "text": "9000000010",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 26,
+        "label": "PERSON"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "label": "PHONE"
+      },
+      {
+        "start": 44,
+        "end": 62,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 116,
+    "language": "en",
+    "text": "My registered phone is 9000000007 and PAN is LMNOP1234Q.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "LMNOP1234Q",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000007",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000007",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 117,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0005 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0005",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 118,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता HSR Layout, Bengaluru है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 38,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 119,
+    "language": "en",
+    "text": "You can contact पूजा सिंह at 9000000005 or riya.test@example.org.",
+    "predictions": [
+      {
+        "start": 43,
+        "end": 64,
+        "label": "EMAIL",
+        "text": "riya.test@example.org",
+        "score": 1.0
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "9000000005",
+        "score": 0.9
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE",
+        "text": "9000000005",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 25,
+        "label": "PERSON"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "PHONE"
+      },
+      {
+        "start": 43,
+        "end": 64,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 120,
+    "language": "hinglish",
+    "text": "Payment ananya@oksbi par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "UPI",
+        "text": "ananya@oksbi",
+        "score": 0.95
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 121,
+    "language": "hinglish",
+    "text": "Payment neha@okhdfcbank par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 23,
+        "label": "UPI",
+        "text": "neha@okhdfcbank",
+        "score": 0.95
+      },
+      {
+        "start": 28,
+        "end": 36,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 23,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 122,
+    "language": "en",
+    "text": "You can contact प्रिया मेहता at 9000000003 or ananya@example.org.",
+    "predictions": [
+      {
+        "start": 46,
+        "end": 64,
+        "label": "EMAIL",
+        "text": "ananya@example.org",
+        "score": 1.0
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "label": "PHONE",
+        "text": "9000000003",
+        "score": 0.9
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "label": "PHONE",
+        "text": "9000000003",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 28,
+        "label": "PERSON"
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "label": "PHONE"
+      },
+      {
+        "start": 46,
+        "end": 64,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 123,
+    "language": "hi",
+    "text": "कृपया मेरा आधार नंबर 0000 0000 0003 सत्यापित करें।",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR",
+        "text": "0000 0000 0003",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 21,
+        "end": 35,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 124,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता व्हाइटफील्ड, बेंगलुरु है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 38,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 125,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता Flat 302, Whitefield, Bengaluru है।",
+    "predictions": [
+      {
+        "start": 17,
+        "end": 49,
+        "label": "ADDRESS",
+        "text": "Flat 302, Whitefield, Bengaluru ",
+        "score": 0.65
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 48,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 126,
+    "language": "hinglish",
+    "text": "Neha Gupta ki UPI ID priya@ybl hai.",
+    "predictions": [
+      {
+        "start": 21,
+        "end": 30,
+        "label": "UPI",
+        "text": "priya@ybl",
+        "score": 0.95
+      },
+      {
+        "start": 0,
+        "end": 10,
+        "label": "PERSON",
+        "text": "Neha Gupta",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 10,
+        "label": "PERSON"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 127,
+    "language": "en",
+    "text": "You can contact Priya Mehta at 9000000001 or priya.test@example.com.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 67,
+        "label": "EMAIL",
+        "text": "priya.test@example.com",
+        "score": 1.0
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "label": "PHONE",
+        "text": "9000000001",
+        "score": 0.9
+      },
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON",
+        "text": "Priya Mehta",
+        "score": 0.85
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "label": "PHONE",
+        "text": "9000000001",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 67,
+        "label": "EMAIL"
+      }
+    ]
+  },
+  {
+    "sample_id": 128,
+    "language": "en",
+    "text": "My registered phone is 9000000005 and PAN is QRSTU5678A.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "QRSTU5678A",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000005",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000005",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 129,
+    "language": "hinglish",
+    "text": "सीमा देवी ki UPI ID neha@okhdfcbank hai.",
+    "predictions": [
+      {
+        "start": 20,
+        "end": 35,
+        "label": "UPI",
+        "text": "neha@okhdfcbank",
+        "score": 0.95
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 0,
+        "end": 9,
+        "label": "PERSON"
+      },
+      {
+        "start": 20,
+        "end": 35,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 130,
+    "language": "en",
+    "text": "My registered phone is 9000000003 and PAN is PQRSX5678K.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "PQRSX5678K",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000003",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000003",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 131,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0002 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0002",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 132,
+    "language": "hinglish",
+    "text": "Payment neha@okhdfcbank par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 23,
+        "label": "UPI",
+        "text": "neha@okhdfcbank",
+        "score": 0.95
+      },
+      {
+        "start": 28,
+        "end": 36,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 23,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 133,
+    "language": "hi",
+    "text": "यह मेरा आधार कार्ड नंबर 0000 0000 0001 है।",
+    "predictions": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR",
+        "text": "0000 0000 0001",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 24,
+        "end": 38,
+        "label": "AADHAAR"
+      }
+    ]
+  },
+  {
+    "sample_id": 134,
+    "language": "hinglish",
+    "text": "Payment rahul@okaxis par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "UPI",
+        "text": "rahul@okaxis",
+        "score": 0.95
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 135,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता HSR Layout, Bengaluru है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 38,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 136,
+    "language": "en",
+    "text": "My registered phone is 9000000004 and PAN is ABCDE1234F.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN",
+        "text": "ABCDE1234F",
+        "score": 0.95
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000004",
+        "score": 0.9
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE",
+        "text": "9000000004",
+        "score": 0.75
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 23,
+        "end": 33,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "label": "PAN"
+      }
+    ]
+  },
+  {
+    "sample_id": 137,
+    "language": "hi",
+    "text": "मेरा वर्तमान पता HSR Layout, Bengaluru है।",
+    "predictions": [],
+    "ground_truth": [
+      {
+        "start": 17,
+        "end": 38,
+        "label": "ADDRESS"
+      }
+    ]
+  },
+  {
+    "sample_id": 138,
+    "language": "hinglish",
+    "text": "Payment priya@ybl par kar dena.",
+    "predictions": [
+      {
+        "start": 8,
+        "end": 17,
+        "label": "UPI",
+        "text": "priya@ybl",
+        "score": 0.95
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "label": "PERSON",
+        "text": "kar dena",
+        "score": 0.85
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 8,
+        "end": 17,
+        "label": "UPI"
+      }
+    ]
+  },
+  {
+    "sample_id": 139,
+    "language": "en",
+    "text": "You can contact Arjun Kumar at 9000000010 or neha.demo@example.com.",
+    "predictions": [
+      {
+        "start": 45,
+        "end": 66,
+        "label": "EMAIL",
+        "text": "neha.demo@example.com",
+        "score": 1.0
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "label": "PHONE",
+        "text": "9000000010",
+        "score": 0.9
+      },
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON",
+        "text": "Arjun Kumar",
+        "score": 0.85
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "label": "PHONE",
+        "text": "9000000010",
+        "score": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "start": 16,
+        "end": 27,
+        "label": "PERSON"
+      },
+      {
+        "start": 31,
+        "end": 41,
+        "label": "PHONE"
+      },
+      {
+        "start": 45,
+        "end": 66,
+        "label": "EMAIL"
+      }
+    ]
+  }
+]
