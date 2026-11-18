@@ -1,0 +1,8 @@
+Entity,Regex Precision,Regex Recall,Regex F1,Presidio Precision,Presidio Recall,Presidio F1,Support,MuRIL Precision,MuRIL Recall,MuRIL F1
+PERSON,0.0,0.0,0.0,0.3415,0.35,0.3457,40,1.0,1.0,1.0
+ADDRESS,0.0,0.0,0.0,0.0,0.0,0.0,20,1.0,1.0,1.0
+PHONE,1.0,1.0,1.0,1.0,1.0,1.0,40,1.0,1.0,1.0
+AADHAAR,1.0,1.0,1.0,1.0,1.0,1.0,40,1.0,1.0,1.0
+PAN,1.0,1.0,1.0,1.0,1.0,1.0,20,0.9091,1.0,0.9524
+EMAIL,1.0,1.0,1.0,1.0,1.0,1.0,20,1.0,1.0,1.0
+UPI,1.0,1.0,1.0,1.0,1.0,1.0,40,1.0,1.0,1.0

@@ -35,4 +35,5 @@ data/processed/*
 *.log
 
 # Results
+results/masking/
 *.tmp

@@ -1,0 +1,4 @@
+Language,Support,MuRIL Precision,MuRIL Recall,MuRIL F1
+en,40,0.9804,1.0,0.9901
+hi,60,1.0,1.0,1.0
+hinglish,40,1.0,1.0,1.0

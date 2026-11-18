@@ -1,0 +1,8 @@
+Entity,Precision,Recall,F1-score,Support
+PERSON,0.0,0.0,0.0,40
+ADDRESS,0.0,0.0,0.0,20
+PHONE,1.0,1.0,1.0,40
+AADHAAR,1.0,1.0,1.0,40
+PAN,1.0,1.0,1.0,20
+EMAIL,1.0,1.0,1.0,20
+UPI,1.0,1.0,1.0,40
